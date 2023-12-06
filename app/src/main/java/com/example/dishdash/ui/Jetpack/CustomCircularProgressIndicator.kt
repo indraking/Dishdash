@@ -70,6 +70,7 @@ fun CustomCircularProgressIndicator(
                 center = circleCenter,
             )
 
+
             drawArc(
                 color = primaryColor,
                 startAngle = 90f,
