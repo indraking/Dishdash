@@ -30,16 +30,20 @@
     <string name="text_target">Target</string>
     <string name="text_nutrition_plane">Perencanaan Nutrisi</string>
     <string name="text_done">Done</string>
-    <string name="title_activity_custom_circular_progress_indicator">
-        CustomCircularProgressIndicator
-    </string>
-    <string name="day">Senin</string>
-    <string name="textYourHave">Kamu masih bisa konsumsi</string>
-    <string name="text_nol">0</string>
-    <string name="text_calori_was_consume">Kalori telah dikonsumsi</string>
-    <string name="text_calori">Kalori</string>
-    <string name="text_question_eat">Kamu sudah makan apa aja hari ini?</string>
-    <string name="text_food_record">Catat Makanan</string>
-    <string name="text_offering_location">Mau rekomendasi tempat makan dengan perhitungan kalori?</string>
-    <string name="text_search_restaurant">Cari Restaurant</string>
+    <string name="text_feedback">Feedback</string>
+    <string name="text_contactinfo">Contact informartion</string>
+    <string name="text_description">Description</string>
+    <string name="fill_emailfeed">Nomor telepon atau alamat email</string>
+    <string name="fill_descripsifeed">Deskripsi harus memiliki setidaknya 10 karakter. \nTambahkan tangkapan layar jika memungkinkan</string>
+    <string name="submit_text">Submit</string>
+    <string name="nama_makanan_text">Nasi Goreng</string>
+    <string name="iv_makanan">Photo Makanan</string>
+    <string name="carbo">CARBO</string>
+    <string name="protein">PROTEIN\n</string>
+    <string name="fat">FAT\n</string>
+    <string name="text_catat_makan">CATAT MAKANAN</string>
+    <string name="search_hint">Nasi Goreng</string>
+    <string name="simpan_text">SIMPAN</string>
+
+
 </resources>
