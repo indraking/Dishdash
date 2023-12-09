@@ -44,6 +44,24 @@
     <string name="text_catat_makan">CATAT MAKANAN</string>
     <string name="search_hint">Nasi Goreng</string>
     <string name="simpan_text">SIMPAN</string>
+    <string name="text_setting">Settings</string>
+    <string name="text_account">Account</string>
+    <string name="text_edit_profile">Edit Profile</string>
+    <string name="text_change_password">Change Password</string>
+    <string name="edit_text">Masukkan nama Anda dan tambahkan foto profil opsional</string>
+    <string name="edit_image_text">Edit</string>
+    <string name="tv_nama_user">afif</string>
+    <string name="tv_nomor_telepon">Nomor Telepon</string>
+    <string name="nomor_telepon">+6282981012412</string>
+    <string name="tv_alamat_email">Alamat Email</string>
+    <string name="user_mail">Afifraihan59@gmail.com</string>
+    <string name="tv_current_password">Current Password</string>
+    <string name="current_password">Masukkan kata sandi saat ini</string>
+    <string name="tv_new_password">New Password</string>
+    <string name="new_password">Masukkan kata sandi baru</string>
+    <string name="tv_confirm_password">Confirm Password</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="done_text">DONE</string>
 
 
 </resources>
