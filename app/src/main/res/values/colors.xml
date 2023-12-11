@@ -10,4 +10,7 @@
     <color name="navy_strong">#363062</color>
     <color name="grey">#EEEDF3</color>
     <color name="black_grey">#454545</color>
+    <color name="nayv">#14213D</color>
+    <color name="blue_navy">#AEBAD4</color>
+    <color name="grey_navy">#14213D</color>
 </resources>

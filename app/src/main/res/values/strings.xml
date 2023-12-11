@@ -62,6 +62,10 @@
     <string name="tv_confirm_password">Confirm Password</string>
     <string name="cancel_text">Cancel</string>
     <string name="done_text">DONE</string>
+    <string name="cari_resto">Cari restaurant, makananan, minuman</string>
+    <string name="alamat">Jl.Pemuda,Sekayu,Kota Semarang</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
