@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="148dp"
         android:text="@string/text_setting"
-        android:textColor="@color/orange_strong"
+        android:textColor="@color/grey_navy"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,13 +35,14 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:contentDescription="@string/text_account"
         android:src="@drawable/ic_account_settings"
-
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="208dp" />
+        app:layout_constraintBottom_toTopOf="@+id/tv_edit_profile"
+        app:layout_constraintEnd_toStartOf="@+id/account_text"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_text"
+        app:layout_constraintVertical_bias="0.577" />
 
     <TextView
         android:id="@+id/account_text"
@@ -49,10 +50,9 @@
         android:layout_height="29dp"
         android:layout_marginTop="208dp"
         android:text="@string/text_account"
-        android:textColor="@color/orange_strong"
+        android:textColor="@color/grey_navy"
         android:textSize="24sp"
         android:textStyle="bold"
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.242"
         app:layout_constraintStart_toStartOf="parent"

@@ -7,11 +7,11 @@
 
     <path
         android:strokeWidth="2"
-        android:strokeColor="#B28234"
+        android:strokeColor="#14213D"
         android:pathData="M24.5 11.4584V43.5417"/>
 
     <path
         android:strokeWidth="2"
-        android:strokeColor="#B28234"
+        android:strokeColor="#14213D"
         android:pathData="M10.2085 27.5H38.7918"/>
 </vector>

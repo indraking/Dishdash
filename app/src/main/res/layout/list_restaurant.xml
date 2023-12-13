@@ -13,9 +13,10 @@
         app:cardCornerRadius="8dp"
         app:cardElevation="8dp"
         app:cardUseCompatPadding="true"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-4dp"
-        tools:layout_editor_absoluteY="-1dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -25,8 +26,8 @@
                 android:id="@+id/iv_image"
                 android:layout_width="107dp"
                 android:layout_height="89dp"
-                app:cardCornerRadius="16dp"
                 android:layout_marginTop="7dp"
+                app:cardCornerRadius="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.027"
                 app:layout_constraintStart_toStartOf="parent"
@@ -53,35 +54,46 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
 
-            <ImageView
-                android:id="@+id/imageView3"
+            <View
+                android:id="@+id/View3"
                 android:layout_width="134dp"
                 android:layout_height="15dp"
+                android:layout_marginRight="12dp"
                 android:background="@drawable/custom_rectangle_3"
                 android:contentDescription="@string/alamat"
-                android:layout_marginRight="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                tools:layout_editor_absoluteX="256dp"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/iv_image"
+                app:layout_constraintBottom_toBottomOf=""
                 tools:layout_editor_absoluteY="81dp" />
 
             <TextView
                 android:id="@+id/alamat_restaurant"
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
                 android:text="@string/alamat"
                 android:textColor="@color/white"
                 android:textSize="8sp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/imageView3"
-                app:layout_constraintStart_toStartOf="@+id/imageView3"
-                tools:layout_editor_absoluteY="81dp" />
+                app:layout_constraintBottom_toBottomOf="@id/View3"
+                app:layout_constraintEnd_toEndOf="@+id/View3"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/View3"
+                app:layout_constraintTop_toBottomOf="@+id/text_descripton" />
 
             <TextView
+                android:id="@+id/text_descripton"
                 android:layout_width="233dp"
                 android:layout_height="45dp"
                 android:text="@string/text_description"
-                tools:layout_editor_absoluteX="134dp"
-                tools:layout_editor_absoluteY="31dp" />
+                app:layout_constraintBottom_toTopOf="@+id/View3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.592"
+                app:layout_constraintStart_toEndOf="@+id/iv_image"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.861" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>

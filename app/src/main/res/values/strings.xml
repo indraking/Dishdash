@@ -66,6 +66,9 @@
     <string name="alamat">Jl.Pemuda,Sekayu,Kota Semarang</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kalori">Kalori :</string>
+    <string name="total_kalori">0</string>
+    <string name="kota_malang">Malang</string>
 
 
 </resources>

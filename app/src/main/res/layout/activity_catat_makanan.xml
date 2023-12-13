@@ -11,15 +11,29 @@
         android:id="@+id/catat_makanan_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="24dp"
         android:text="@string/text_catat_makan"
-        android:textColor="@color/orange_strong"
+        android:textColor="@color/black_grey"
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.593"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_rectangle_white_2"
+        android:contentDescription="@string/text_done"
+        android:src="@drawable/ic_back"
+        app:layout_constraintBottom_toTopOf="@+id/searchEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164" />
 
     <ImageView
         android:id="@+id/searchIcon"
@@ -40,13 +54,14 @@
         android:layout_marginEnd="16dp"
         android:background="@drawable/custom_edit_text"
         android:hint="@string/search_hint"
-        android:textColorHint="@color/orange_strong"
+        android:textColorHint="@color/black_grey"
         android:textColor="@android:color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.263"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/catat_makanan_text" />
+        app:layout_constraintTop_toBottomOf="@+id/catat_makanan_text"
+        android:autofillHints="aa" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
@@ -64,7 +79,7 @@
         android:layout_width="176dp"
         android:layout_height="48dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="@color/orange_strong"
+        android:backgroundTint="@color/grey_navy"
         android:text="@string/simpan_text"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
