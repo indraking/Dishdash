@@ -97,6 +97,8 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun setupAction(){
         binding.btnRegister.setOnClickListener {
+            startActivity(Intent(this, NameActivity::class.java))
+            finish()
 
         }
         binding.textLogin.setOnClickListener {
