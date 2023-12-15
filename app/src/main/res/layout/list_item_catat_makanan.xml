@@ -143,7 +143,6 @@
         android:backgroundTint="@color/orange_strong"
         android:text="@string/simpan_text"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.565"
         app:layout_constraintStart_toStartOf="parent"
