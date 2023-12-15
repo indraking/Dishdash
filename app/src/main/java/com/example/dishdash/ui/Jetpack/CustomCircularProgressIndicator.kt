@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.dishdash.ui.Jetpack.darkGray
 import com.example.dishdash.ui.Jetpack.gray
+import com.example.dishdash.ui.Jetpack.navy
 import com.example.dishdash.ui.Jetpack.orange
 
 
@@ -37,7 +38,7 @@ fun CustomCircularProgressIndicator(
     circleRadius : Float,
     type : String,
     onPositionChange:(Int)-> Unit
-){
+){ 
     var circleCenter by remember {
         mutableStateOf(Offset.Zero)
     }
@@ -93,7 +94,7 @@ fun CustomCircularProgressIndicator(
                         Paint().apply {
                             textSize = 18.sp.toPx()
                             textAlign = Paint.Align.CENTER
-                            color = orange.toArgb()
+                            color = navy.toArgb()
                             isFakeBoldText = true
                         }
                     )
@@ -104,7 +105,7 @@ fun CustomCircularProgressIndicator(
                         Paint().apply {
                             textSize = 12.dp.toPx()
                             textAlign = Paint.Align.CENTER
-                            color = orange.toArgb()
+                            color = navy.toArgb()
                             isFakeBoldText = true
                         }
                     )
@@ -122,7 +123,7 @@ fun Preview(){
             .size(120.dp)
             .background(darkGray),
         initialValue = 50,
-        primaryColor = orange,
+        primaryColor = navy,
         secondaryColor = gray,
         circleRadius = 150f,
         type = "Protein",
