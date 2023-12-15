@@ -20,7 +20,7 @@
     <string name="text_cm">cm</string>
     <string name="hours_sleep">Kamu tidur berapa jam?</string>
     <string name="type_work">Jenis Pekerjaaan kamu?</string>
-    <string name="hours_work_per_day">Jam bekerja per hari</string>
+    <string name="hours_work_per_day">Jam per hari</string>
     <string name="most_active_text">Seberapa aktif kegiatan kamu saat senggang?</string>
     <string name="status_active">Sangat Aktif\nSaya sering melakukan pergerakan</string>
     <string name="status_normal">Cukup Aktif\nSaya melakukan pergerakan yang cukup</string>
@@ -44,25 +44,31 @@
     <string name="text_catat_makan">CATAT MAKANAN</string>
     <string name="search_hint">Nasi Goreng</string>
     <string name="simpan_text">SIMPAN</string>
-    <string name="day">Senin</string>
-    <string name="textYourHave">Kamu masih bisa makan</string>
-    <string name="text_nol">0</string>
-    <string name="text_calori_was_consume">kalori telah dikonsumsi</string>
-    <string name="text_calori">Kalori</string>
-    <string name="text_question_eat">Kamu sudah makan apa saja hari ini?</string>
-    <string name="text_food_record">Catat Makanan</string>
-    <string name="text_offering_location">Mau rekomendasi tempat makan dengan perhitungan kalori?</string>
-    <string name="text_search_restaurant">Cari Restaurant</string>
-    <string name="title_activity_custom_circular_progress_indicator">Circular Percentage\n</string>
+    <string name="text_setting">Settings</string>
+    <string name="text_account">Account</string>
+    <string name="text_edit_profile">Edit Profile</string>
+    <string name="text_change_password">Change Password</string>
+    <string name="edit_text">Masukkan nama Anda dan tambahkan foto profil opsional</string>
+    <string name="edit_image_text">Edit</string>
+    <string name="tv_nama_user">afif</string>
+    <string name="tv_nomor_telepon">Nomor Telepon</string>
+    <string name="nomor_telepon">+6282981012412</string>
+    <string name="tv_alamat_email">Alamat Email</string>
+    <string name="user_mail">Afifraihan59@gmail.com</string>
+    <string name="tv_current_password">Current Password</string>
+    <string name="current_password">Masukkan kata sandi saat ini</string>
+    <string name="tv_new_password">New Password</string>
+    <string name="new_password">Masukkan kata sandi baru</string>
+    <string name="tv_confirm_password">Confirm Password</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="done_text">DONE</string>
+    <string name="cari_resto">Cari restaurant, makananan, minuman</string>
+    <string name="alamat">Jl.Pemuda,Sekayu,Kota Semarang</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="text_history">History</string>
-    <string name="text_input_date">Masukan Tanggal</string>
-    <string name="dummy_date">1-12-2023</string>
-    <string name="text_today">Hari ini :</string>
-    <string name="text_read_more">Read More</string>
-    <string name="text_open_map">Open Map</string>
-    <string name="text_recomendation">Rekomendasi Makanan</string>
+    <string name="kalori">Kalori :</string>
+    <string name="total_kalori">0</string>
+    <string name="kota_malang">Malang</string>
 
 
 </resources>
