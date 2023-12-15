@@ -13,7 +13,7 @@
         android:layout_margin="40dp"
         android:gravity="center"
         android:text="@string/most_active_text"
-        android:textColor="@color/orange_strong"
+        android:textColor="@color/navy_strong"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
@@ -33,45 +33,43 @@
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:button="@color/orange_strong"
+            android:button="@color/navy_strong"
             android:padding="15dp"
             android:background="@drawable/custom_radio_selector"
             android:drawableStart="@drawable/ic_calendar"
-            android:drawable="@drawable/ic_calendar"
             android:drawablePadding="10dp"
             android:text="@string/status_active"/>
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:button="@color/orange_strong"
+            android:button="@color/navy_strong"
             android:layout_marginTop="20dp"
             android:padding="15dp"
             android:background="@drawable/custom_radio_selector"
             android:drawableStart="@drawable/ic_calendar"
-            android:drawable="@drawable/ic_calendar"
             android:drawablePadding="10dp"
             android:text="@string/status_active"/>
 
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:button="@color/orange_strong"
+            android:button="@color/navy_strong"
             android:layout_marginTop="20dp"
             android:padding="15dp"
             android:background="@drawable/custom_radio_selector"
             android:drawableStart="@drawable/ic_calendar"
-            android:drawable="@drawable/ic_calendar"
             android:drawablePadding="10dp"
             android:text="@string/status_active"/>
     </RadioGroup>
 
     <Button
+        android:id="@+id/btn_next"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:text="@string/text_done"
         android:textSize="18sp"
-        android:backgroundTint="@color/orange_strong"
+        android:backgroundTint="@color/navy_strong"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,7 +80,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone"
-        android:indeterminateTint="@color/orange_strong"
+        android:indeterminateTint="@color/navy_strong"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

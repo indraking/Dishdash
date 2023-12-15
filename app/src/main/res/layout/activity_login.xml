@@ -11,6 +11,11 @@
         android:layout_height="match_parent"
         android:src="@drawable/welcome_image"
         android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/navy_strong"
+        android:alpha="0.5"/>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,7 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/login_text"
-                android:textColor="@color/orange_strong"
+                android:textColor="@color/navy_strong"
                 android:textStyle="bold"
                 android:textSize="24sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +59,7 @@
                     android:hint="@string/email_text"
                     android:ems="10"
                     android:inputType="textEmailAddress"
-                    android:background="@color/grey"
+                    android:background="@drawable/edit_text_round"
                     tools:ignore="SpeakableTextPresentCheck"/>
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
@@ -78,7 +83,7 @@
                     android:hint="@string/password_text"
                     android:ems="10"
                     android:inputType="textPassword"
-                    android:background="@color/grey"
+                    android:background="@drawable/edit_text_round"
                     tools:ignore="SpeakableTextPresentCheck"/>
             </com.google.android.material.textfield.TextInputLayout>
             <TextView
@@ -86,7 +91,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text_forgot_password"
-                android:textColor="@color/orange_strong"
+                android:textColor="@color/navy_strong"
                 app:layout_constraintStart_toStartOf="@id/PasswordEditTextLayout"
                 app:layout_constraintTop_toBottomOf="@id/PasswordEditTextLayout"/>
             <com.example.dishdash.ui.customView.ButtonForRegister
@@ -96,7 +101,7 @@
                 android:text="@string/login_text"
                 android:layout_marginTop="20dp"
                 android:textSize="16sp"
-                android:backgroundTint="@color/orange_strong"
+                android:backgroundTint="@color/navy_strong"
                 app:layout_constraintTop_toBottomOf="@id/text_forgot_password"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"/>
@@ -106,7 +111,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:visibility="gone"
-                android:indeterminateTint="@color/orange_strong"
+                android:indeterminateTint="@color/navy_strong"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -117,7 +122,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text_login_with"
-                android:textColor="@color/orange_strong"
+                android:textColor="@color/navy_strong"
                 android:layout_marginTop="32dp"
                 app:layout_constraintTop_toBottomOf="@id/btn_login"
                 app:layout_constraintStart_toStartOf="@id/btn_login"
@@ -140,7 +145,7 @@
                 android:text="@string/text_bottom"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="28dp"
-                android:textColor="@color/orange_strong"
+                android:textColor="@color/navy_strong"
                 app:layout_constraintTop_toBottomOf="@id/btn_login_google"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"/>
@@ -151,7 +156,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginStart="4dp"
                 android:text="@string/register_text"
-                android:textColor="@color/orange_strong"
+                android:textColor="@color/navy_strong"
                 android:textStyle="bold"
                 app:layout_constraintTop_toBottomOf="@id/btn_login_google"
                 app:layout_constraintStart_toEndOf="@id/text_bottom"/>
