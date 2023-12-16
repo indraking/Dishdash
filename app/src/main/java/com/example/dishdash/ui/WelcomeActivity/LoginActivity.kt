@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowInsets
 import android.view.WindowManager
+import com.example.dishdash.MainActivity
 import com.example.dishdash.R
 import com.example.dishdash.databinding.ActivityLoginBinding
 
@@ -16,12 +17,12 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        setupView()
+//        setupView()
+
         setupAction()
     }
 
     private fun setupView() {
-        @Suppress("DEPRECATION")
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             window.insetsController?.hide(WindowInsets.Type.statusBars())
         } else {
@@ -35,6 +36,9 @@ class LoginActivity : AppCompatActivity() {
 
     private fun setupAction(){
         binding.btnLogin.setOnClickListener {
+
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
 
         }
         binding.textRegister.setOnClickListener {

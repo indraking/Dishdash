@@ -5,11 +5,59 @@
       <entry key="DatePickerActivity">
         <State />
       </entry>
-      <entry key="MainActivity">
+      <entry key="DetailRestaurantActivity">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\kingi\.android\avd\Pixel_6_API_30.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2023-12-11T02:01:54.403684600Z" />
+        </State>
+      </entry>
+      <entry key="LoginActivity">
         <State />
       </entry>
-      <entry key="WeightTargetActivity">
+      <entry key="MainActivity">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\kingi\.android\avd\Pixel_6_API_30.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2023-12-09T13:43:02.720061400Z" />
+        </State>
+      </entry>
+      <entry key="WelcomeActivity (1)">
         <State />
+      </entry>
+      <entry key="app">
+        <State>
+          <runningDeviceTargetSelectedWithDropDown>
+            <Target>
+              <type value="RUNNING_DEVICE_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\kingi\.android\avd\Pixel_6_API_30.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </runningDeviceTargetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2023-12-15T07:10:31.957075900Z" />
+        </State>
       </entry>
     </value>
   </component>

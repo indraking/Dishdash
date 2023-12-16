@@ -12,12 +12,10 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.drawscope.drawIntoCanvas
-import androidx.compose.ui.graphics.drawscope.rotate
 import androidx.compose.ui.graphics.nativeCanvas
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.tooling.preview.Preview
@@ -25,11 +23,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.dishdash.ui.Jetpack.darkGray
 import com.example.dishdash.ui.Jetpack.gray
+import com.example.dishdash.ui.Jetpack.navy
 import com.example.dishdash.ui.Jetpack.orange
-import com.example.dishdash.ui.Jetpack.white
-import kotlin.math.PI
-import kotlin.math.cos
-import kotlin.math.sin
 
 
 @Composable
@@ -43,7 +38,7 @@ fun CustomCircularProgressIndicator(
     circleRadius : Float,
     type : String,
     onPositionChange:(Int)-> Unit
-){
+){ 
     var circleCenter by remember {
         mutableStateOf(Offset.Zero)
     }
@@ -60,16 +55,6 @@ fun CustomCircularProgressIndicator(
             val circleThickness = width / 25f
             circleCenter = Offset(x = width/2f, y = height/2f)
 
-//            drawCircle(
-//                brush = Brush.radialGradient(
-//                    listOf(
-//                        primaryColor.copy(0.45f),
-//                        secondaryColor.copy(0.15f)
-//                    )
-//                ),
-//                radius = circleRadius,
-//                center = circleCenter
-//            )
 
             drawCircle(
                 style = Stroke(
@@ -79,6 +64,7 @@ fun CustomCircularProgressIndicator(
                 radius = circleRadius,
                 center = circleCenter,
             )
+
 
             drawArc(
                 color = primaryColor,
@@ -99,36 +85,6 @@ fun CustomCircularProgressIndicator(
                 )
             )
 
-//            val outerRadius = circleRadius + circleThickness /2f
-//            val gap = 15f
-//            for (i in 0..(maxValue-minValue)){
-//                val color = if (i < positionValue-minValue) primaryColor else primaryColor.copy(alpha = 0.3f)
-//                val angleInDegrees  = i*360f/(maxValue-minValue).toFloat()
-//                val angleInRad = angleInDegrees * PI / 180f + PI/2f
-//
-//                val yGapAdjustment = cos(angleInDegrees * PI/ 180f)*gap
-//                val xGapAdjustment = -sin(angleInDegrees * PI/ 180f)*gap
-//
-//                val start = Offset(
-//                    x = (outerRadius * cos(angleInRad) + circleCenter.x + xGapAdjustment).toFloat(),
-//                    y = (outerRadius * sin(angleInRad) + circleCenter.y + yGapAdjustment).toFloat(),
-//                )
-//                val end = Offset(
-//                    x = (outerRadius * cos(angleInRad) + circleCenter.x + xGapAdjustment).toFloat(),
-//                    y = (outerRadius * sin(angleInRad) + circleThickness + circleCenter.y + yGapAdjustment).toFloat(),
-//                )
-//                rotate(
-//                    angleInDegrees,
-//                    pivot = start
-//                ){
-//                    drawLine(
-//                        color = color,
-//                        start = start,
-//                        end = end,
-//                        strokeWidth = 1.dp.toPx()
-//                    )
-//                }
-//            }
             drawContext.canvas.nativeCanvas.apply {
                 drawIntoCanvas {
                     drawText(
@@ -138,7 +94,7 @@ fun CustomCircularProgressIndicator(
                         Paint().apply {
                             textSize = 18.sp.toPx()
                             textAlign = Paint.Align.CENTER
-                            color = orange.toArgb()
+                            color = navy.toArgb()
                             isFakeBoldText = true
                         }
                     )
@@ -149,7 +105,7 @@ fun CustomCircularProgressIndicator(
                         Paint().apply {
                             textSize = 12.dp.toPx()
                             textAlign = Paint.Align.CENTER
-                            color = orange.toArgb()
+                            color = navy.toArgb()
                             isFakeBoldText = true
                         }
                     )
@@ -167,7 +123,7 @@ fun Preview(){
             .size(120.dp)
             .background(darkGray),
         initialValue = 50,
-        primaryColor = orange,
+        primaryColor = navy,
         secondaryColor = gray,
         circleRadius = 150f,
         type = "Protein",

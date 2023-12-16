@@ -1,5 +1,6 @@
 package com.example.dishdash.ui.WelcomeActivity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -25,5 +26,11 @@ class HoursSleepActivity : AppCompatActivity() {
 
         // Menetapkan adapter ke Spinner
         spinnerHours.adapter = adapter
+
+
+        binding.btnNext.setOnClickListener {
+
+            startActivity(Intent(this,MostActiveActivity::class.java))
+        }
     }
 }

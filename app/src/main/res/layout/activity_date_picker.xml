@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_date"
-        android:textSize="20sp"
-        android:textColor="@color/orange_strong"
+        android:textSize="24sp"
+        android:textColor="@color/navy_strong"
         android:textStyle="bold"
         android:layout_marginTop="30dp"
         android:padding="20dp"
@@ -21,22 +21,26 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
 
-    <CalendarView
+    <DatePicker
         android:id="@+id/birthDate"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/datepicker"
         android:hapticFeedbackEnabled="true"
-        app:layout_constraintTop_toBottomOf="@id/text_date"/>
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_date"
+        tools:layout_editor_absoluteX="20dp" />
 
     <Button
+        android:id="@+id/btn_next"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:text="@string/text_next"
         android:textSize="18sp"
-        android:backgroundTint="@color/orange_strong"
+        android:backgroundTint="@color/navy_strong"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

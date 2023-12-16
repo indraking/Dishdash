@@ -16,7 +16,7 @@
         android:gravity="center"
         android:textStyle="bold"
         android:layout_marginTop="50dp"
-        android:textColor="@color/orange_strong"
+        android:textColor="@color/navy_strong"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -32,11 +32,12 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <Button
+        android:id="@+id/btn_next"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:text="@string/text_next"
         android:textSize="18sp"
-        android:backgroundTint="@color/orange_strong"
+        android:backgroundTint="@color/navy_strong"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
