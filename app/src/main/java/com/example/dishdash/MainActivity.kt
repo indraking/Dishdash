@@ -34,11 +34,17 @@ class MainActivity : AppCompatActivity() {
             true
         }
 
+        setupView()
+
     }
     private fun replaceFragment(fragment: Fragment){
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.fragment,fragment)
         fragmentTransaction.commit()
+    }
+    private fun setupView() {
+        window.statusBarColor =  resources.getColor(R.color.white)
+        window.navigationBarColor = resources.getColor(R.color.white)
     }
 }
