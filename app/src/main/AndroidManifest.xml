@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Dishdash"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity"
+            android:exported="false"/>
+        <activity
             android:name=".ui.WelcomeActivity.PlacesActivity"
             android:exported="false" />
         <activity
@@ -59,8 +62,10 @@
         <activity
             android:name=".ui.WelcomeActivity.WelcomeActivity"
             android:exported="true" />
+        <activity android:name=".ui.MoreFoodActivity"
+            android:exported="false"/>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.WelcomeActivity.SplashscreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

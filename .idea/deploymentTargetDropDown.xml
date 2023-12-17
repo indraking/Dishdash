@@ -22,7 +22,20 @@
         </State>
       </entry>
       <entry key="LoginActivity">
-        <State />
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\kingi\.android\avd\Pixel_4_XL_API_26.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2023-12-16T13:46:16.995053900Z" />
+        </State>
       </entry>
       <entry key="MainActivity">
         <State>
@@ -37,7 +50,7 @@
               </deviceKey>
             </Target>
           </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2023-12-09T13:43:02.720061400Z" />
+          <timeTargetWasSelectedWithDropDown value="2023-12-16T08:13:17.463415300Z" />
         </State>
       </entry>
       <entry key="WelcomeActivity (1)">

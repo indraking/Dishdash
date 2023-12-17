@@ -30,6 +30,18 @@
     <string name="text_target">Target</string>
     <string name="text_nutrition_plane">Perencanaan Nutrisi</string>
     <string name="text_done">Done</string>
+    <string name="title_activity_custom_circular_progress_indicator">
+        CustomCircularProgressIndicator
+    </string>
+    <string name="day">Senin</string>
+    <string name="textYourHave">Kamu masih bisa konsumsi</string>
+    <string name="text_nol">0</string>
+    <string name="text_calori_was_consume">Kalori telah dikonsumsi</string>
+    <string name="text_calori">Kalori</string>
+    <string name="text_question_eat">Kamu sudah makan apa aja hari ini?</string>
+    <string name="text_food_record">Catat Makanan</string>
+    <string name="text_offering_location">Mau rekomendasi tempat makan dengan perhitungan kalori?</string>
+    <string name="text_search_restaurant">Cari Restaurant</string>
     <string name="text_feedback">Feedback</string>
     <string name="text_contactinfo">Contact informartion</string>
     <string name="text_description">Description</string>
@@ -69,6 +81,13 @@
     <string name="kalori">Kalori :</string>
     <string name="total_kalori">0</string>
     <string name="kota_malang">Malang</string>
+    <string name="text_day">Senin</string>
+    <string name="text_recomendation">Rekomendasi Makanan :</string>
+    <string name="text_read_more">Read More</string>
+    <string name="text_today">Hari Ini :</string>
+    <string name="text_input_date">Masukan Tanggal</string>
+    <string name="text_history">History</string>
+    <string name="text_open_map">Open Map</string>
 
 
 </resources>

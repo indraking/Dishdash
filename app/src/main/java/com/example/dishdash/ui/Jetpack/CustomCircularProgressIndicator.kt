@@ -120,7 +120,6 @@ fun CustomCircularProgressIndicator(
 fun Preview(){
     CustomCircularProgressIndicator(
         modifier = Modifier
-            .size(120.dp)
             .background(darkGray),
         initialValue = 50,
         primaryColor = navy,
